@@ -26,7 +26,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Nome"/>
+                    android:hint="Nome"
+                    android:inputType="textNoSuggestions"/>
 
             </android.support.design.widget.TextInputLayout>
 
@@ -38,7 +39,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/matricula"/>
+                    android:hint="@string/matricula"
+                    android:inputType="number"/>
 
             </android.support.design.widget.TextInputLayout>
 
@@ -50,7 +52,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/papel"/>
+                    android:hint="@string/papel"
+                    android:inputType="number"/>
 
             </android.support.design.widget.TextInputLayout>
 
@@ -62,7 +65,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/plastico"/>
+                    android:hint="@string/plastico"
+                    android:inputType="number"/>
 
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
@@ -73,7 +77,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/metal"/>
+                    android:hint="@string/metal"
+                    android:inputType="number"/>
 
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
@@ -84,7 +89,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/vidro"/>
+                    android:hint="@string/vidro"
+                    android:inputType="number"/>
 
             </android.support.design.widget.TextInputLayout>
 
