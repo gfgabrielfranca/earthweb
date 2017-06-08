@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Earthweb</string>
+    <string name="aumentar_ranking">Aumentar no ranking</string>
+    <string name="diminuir_ranking">Diminuir no ranking</string>
+    <string name="cadastrar_ranking">Cadastrar no ranking</string>
+    <string name="matricula">Matrícula</string>
+    <string name="papel">Papel</string>
+    <string name="metal">Metal</string>
+    <string name="vidro">Vidro</string>
+    <string name="plastico">Plástico</string>
+</resources>
