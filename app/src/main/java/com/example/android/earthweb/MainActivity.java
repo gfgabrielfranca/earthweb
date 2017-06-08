@@ -2,6 +2,7 @@ package com.example.android.earthweb;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
@@ -46,14 +47,17 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == 1){
             if (resultCode == 1){
+                Snackbar.make(findViewById(R.id.layoutHome), "Cadastro realizado com sucesso", Snackbar.LENGTH_LONG).show();
             }
         }
         if(requestCode == 2){
             if (resultCode == 1){
+                Snackbar.make(findViewById(R.id.layoutHome), "Pontuação aumentada com sucesso", Snackbar.LENGTH_LONG).show();
             }
         }
         if(requestCode == 3){
             if (resultCode == 1){
+                Snackbar.make(findViewById(R.id.layoutHome), "Pontuação diminuida com sucesso", Snackbar.LENGTH_LONG).show();
             }
         }
     }

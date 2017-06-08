@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.earthweb.MainActivity">
+    tools:context="com.example.android.earthweb.MainActivity"
+    android:id="@+id/layoutCadastrar">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,7 +28,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Nome"
-                    android:inputType="textNoSuggestions"/>
+                    android:inputType="textPersonName|textCapWords"
+                    android:id="@+id/editNome"/>
 
             </android.support.design.widget.TextInputLayout>
 
@@ -40,7 +42,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/matricula"
-                    android:inputType="number"/>
+                    android:inputType="number"
+                    android:id="@+id/editCPF"/>
 
             </android.support.design.widget.TextInputLayout>
 
@@ -53,7 +56,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/papel"
-                    android:inputType="number"/>
+                    android:inputType="number"
+                    android:id="@+id/editPapel"/>
 
             </android.support.design.widget.TextInputLayout>
 
@@ -66,7 +70,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/plastico"
-                    android:inputType="number"/>
+                    android:inputType="number"
+                    android:id="@+id/editPlastico"/>
 
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
@@ -78,7 +83,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/metal"
-                    android:inputType="number"/>
+                    android:inputType="number"
+                    android:id="@+id/editMetal"/>
 
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
@@ -90,7 +96,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/vidro"
-                    android:inputType="number"/>
+                    android:inputType="number"
+                    android:id="@+id/editVidro"/>
 
             </android.support.design.widget.TextInputLayout>
 
@@ -100,7 +107,8 @@
                 android:text="@string/cadastrar_ranking"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:theme="@style/ButtonAction"/>
+                android:theme="@style/ButtonAction"
+                android:id="@+id/btnCadastrar"/>
         </LinearLayout>
 
     </ScrollView>
